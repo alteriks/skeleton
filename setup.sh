@@ -8,7 +8,12 @@ function update {
 }
 
 function install {
-	LIST
+	LIST=".fonts .oh-my-zsh .tmux* .vimrc .vim/ .zshrc"
+	for x in $LIST; do
+		cp -a ${x} ~kdajka/
+	done
+	cp -a home/kdajka/.kde ~kdajka/
+
 }
 
 case $1 in
