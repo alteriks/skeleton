@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/kdajka/.oh-my-zsh/custom'
+let g:netrw_dirhist_2='/home/kdajka/.oh-my-zsh/plugins/extract'
+let g:netrw_dirhist_3='/home/kdajka/.oh-my-zsh/custom'
